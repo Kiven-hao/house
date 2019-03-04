@@ -5,14 +5,14 @@
 <configuration>
     <settings>
         <!-- 配置关闭缓存 -->
-        <setting name="cacheEnable" value="false"/>
+        <setting name="cacheEnabled" value="false"/>
         <!--- 将表字段映射成为驼峰的形式，不用写resultMap -->
         <setting name="mapUnderscoreToCamelCase" value="true"/>
         <!-- 自动生成key -->
         <setting name="useGeneratedKeys" value="true" />
         <!-- 类似于preparedStatement可以缓存已经执行的SQL语句 -->
         <!--事务超时时间-->
-        <setting name="defaultStatementTimeOut" value="600"/>
+        <setting name="defaultStatementTimeout" value="600"/>
     </settings>
     <typeAliases>
         <typeAlias type="com.mooc.house.common.model.User" alias="user" />
